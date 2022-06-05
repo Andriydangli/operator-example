@@ -1,7 +1,0 @@
-apiVersion: test.io.apiserver/v1alpha1
-kind: Traffic
-metadata:
-  name: zack-test
-spec:
-  # TODO(user): Add fields here
-  date: 2022.4.24 21:19:00

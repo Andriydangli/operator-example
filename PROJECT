@@ -1,16 +1,16 @@
-domain: apiserver
+domain: example.io
 layout:
 - go.kubebuilder.io/v3
-projectName: test
-repo: apiserver
+projectName: project
+repo: example.io
 resources:
 - api:
     crdVersion: v1
     namespaced: true
   controller: true
-  domain: apiserver
-  group: test.io
-  kind: Traffic
-  path: apiserver/api/v1alpha1
-  version: v1alpha1
+  domain: example.io
+  group: batch
+  kind: CronJob
+  path: example.io/api/v1
+  version: v1
 version: "3"
